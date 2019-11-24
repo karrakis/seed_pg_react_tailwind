@@ -5,10 +5,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
-
-const Hello = props => (
-  <div class="container bg-blue-300">Hello {props.name}!</div>
-);
+import Hello from "./cave/Cave";
 
 Hello.defaultProps = {
   name: "David"

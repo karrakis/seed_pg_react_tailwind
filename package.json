@@ -1,5 +1,5 @@
 {
-  "name": "seed_pg_react_tailwind",
+  "name": "divgeon",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.6.3",
