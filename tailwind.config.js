@@ -2,10 +2,11 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        room: "calc(100vh / 11)"
+        room: "9%"
       },
       width: {
-        room: "calc(100vw / 11)"
+        room: "9%",
+        container: "1200px"
       }
     }
   },

@@ -3,10 +3,10 @@ import Row from "./Row";
 
 const Grid = ({ patternData }) => {
   const cavePattern = patternData.map(p => {
-    return <div className={`w-room h-room bg-gray-${p}00`} />;
+    return <div className={`w-room h-full bg-gray-${p}00`} />;
   });
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-container h-screen">
       <Row>{cavePattern.slice(0, 11)}</Row>
       <Row>{cavePattern.slice(11, 22)}</Row>
       <Row>{cavePattern.slice(22, 33)}</Row>
