@@ -7,17 +7,17 @@ const Grid = ({ patternData }) => {
   });
   return (
     <div className="flex flex-col w-container h-screen">
-      <Row>{cavePattern.slice(0, 11)}</Row>
-      <Row>{cavePattern.slice(11, 22)}</Row>
-      <Row>{cavePattern.slice(22, 33)}</Row>
-      <Row>{cavePattern.slice(33, 44)}</Row>
-      <Row>{cavePattern.slice(44, 55)}</Row>
-      <Row>{cavePattern.slice(55, 66)}</Row>
-      <Row>{cavePattern.slice(66, 77)}</Row>
-      <Row>{cavePattern.slice(77, 88)}</Row>
-      <Row>{cavePattern.slice(88, 99)}</Row>
-      <Row>{cavePattern.slice(99, 110)}</Row>
-      <Row>{cavePattern.slice(110, 122)}</Row>
+      <Row>{patternData[0]}</Row>
+      <Row>{patternData[1]}</Row>
+      <Row>{patternData[2]}</Row>
+      <Row>{patternData[3]}</Row>
+      <Row>{patternData[4]}</Row>
+      <Row>{patternData[5]}</Row>
+      <Row>{patternData[6]}</Row>
+      <Row>{patternData[7]}</Row>
+      <Row>{patternData[8]}</Row>
+      <Row>{patternData[9]}</Row>
+      <Row>{patternData[10]}</Row>
     </div>
   );
 };
