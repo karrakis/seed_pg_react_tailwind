@@ -2,11 +2,8 @@ import React from "react";
 import Row from "./Row";
 
 const Grid = ({ patternData }) => {
-  const cavePattern = patternData.map(p => {
-    return <div className={`w-room h-full bg-gray-${p}00`} />;
-  });
   return (
-    <div className="flex flex-col w-container h-screen">
+    <div className="flex flex-col w-container h-screen bg-blue-900">
       <Row>{patternData[0]}</Row>
       <Row>{patternData[1]}</Row>
       <Row>{patternData[2]}</Row>
