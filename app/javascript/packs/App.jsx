@@ -4,7 +4,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Home from "home";
+import Home from "./Home";
 
 document.addEventListener("DOMContentLoaded", () => {
   const data = JSON.parse(
